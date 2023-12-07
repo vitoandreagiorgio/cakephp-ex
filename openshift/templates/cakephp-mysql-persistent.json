@@ -229,6 +229,9 @@
                     "value": "${DATABASE_SERVICE_NAME}"
                   },
                   {
+                    "name": "WELCOME",
+                    "value": "${WELCOME}"
+                  },                  {
                     "name": "DATABASE_ENGINE",
                     "value": "${DATABASE_ENGINE}"
                   },
@@ -591,6 +594,11 @@
       "displayName": "MySQL authentication plugin",
       "description": "The custom MySQL default authentication plugin (default: mysql_native_password), might be changed to caching_sha2_password once PHP client supports it.",
       "value": "mysql_native_password"
-    }
+    },
+      "name": "WELCOME",
+      "displayName": "WELCOME",
+      "description": "welcome message",
+	  "value": "Buongiorno a tutti"
+    }	
   ]
 }
