@@ -410,6 +410,10 @@
                     }
                   },
                   {
+                    "name": "WELCOME",
+                    "value": "${WELCOME}"
+                  },
+                  {
                     "name": "MYSQL_DATABASE",
                     "value": "${DATABASE_NAME}"
                   },
@@ -478,7 +482,7 @@
       "displayName": "Git Repository URL",
       "description": "The URL of the repository with your application source code.",
       "required": true,
-      "value": "https://github.com/sclorg/cakephp-ex.git"
+      "value": "https://github.com/vitoandreagiorgio/cakephp-ex.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
@@ -565,6 +569,12 @@
        "displayName": "MySQL authentication plugin",
        "description": "The custom MySQL default authentication plugin (default: mysql_native_password), might be changed to caching_sha2_password once PHP client supports it.",
        "value": "mysql_native_password"
+    },
+    { 
+	  "name": "WELCOME",
+      "displayName": "WELCOME",
+      "description": "welcome message",
+	  "value": "Buongiorno a tutti"
     }
   ]
 }
